@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+	<title>Tài liệu của tôi</title>
+</head>
+
+<!-- css -->
+<style>
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+	#toggle {
+		color: #fff;
+		background-color: #192a56;
+		text-align: right;
+		padding: 10px;
+		cursor: pointer;
+		display: none;
+	}
+	ul {
+		list-style-type: none;
+	}
+	nav {
+		background-color: #00a8ff;
+	}
+	#main-menu {
+		display: flex;
+	}
+	nav #main-menu li a {
+		color: #fff;
+		text-decoration: none;
+		display: block;
+		padding: 8px 15px;
+	}
+	nav #main-menu li a:hover{
+		background-color: #c23616;
+		transition: all 0.5s;
+		color: black;
+	}
+	@media screen and (max-width: 768px) {
+		#main-menu {
+			flex-direction: column;
+			text-align: center;
+		}
+		#toggle {
+			display: block;
+		}
+		nav {
+			display: none;
+		}
+	}
+</style>
+<!--  -->
+<script>
+	$(document).ready(function() {
+		$('#toggle').click(function() {
+			$('nav').slideToggle()
+		});
+	})
+</script>
+<!-- page -->
+<body>
+	<div id="page">
+		<div id="toggle">
+			<i class="fa-solid fa-bars"></i>
+		</div>
+		<div id="hearder">
+			<nav>
+				<ul id="main-menu">
+					<li><a href="">Home</a></li>
+					<li><a href="../tailieu/index.html">Tài liệu đã lưu</a></li>
+					<li><a href="">Liên kết</a></li>
+					<li><a href="">Giới thiệu</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</body>
+</html>

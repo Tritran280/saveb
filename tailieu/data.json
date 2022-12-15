@@ -1,0 +1,39 @@
+[
+	{	
+		"namebox": "Tài liệu môn học",
+		"id": "1",
+		"sj" : {
+				"Lập trình Matlab": ["mot", "hai", "ba"],
+				 "Đo lường điện": ["1", "2", "3"], 
+				 "Trường điện từ": ["1", "2", "3"], 
+				 "Lịch sử Đảng":"", 
+				 "Vật liệu điện":"",
+				 "Vẽ kỹ thuật":"",
+				 "Lý thuyết điều khiển tự động":""
+				}	
+		
+	},
+
+	{	
+		"namebox": "Tài liệu liên kết",
+		"id": "2",
+		"sj" : {
+			"Lập trình Matlab": ["mot", "hai", "ba"],
+				 "Đo lường điện": ["1", "2", "3"], 
+				 "Trường điện từ": ["1", "2", "3"], 
+				 "Lịch sử Đảng":"", 
+				 "Vật liệu điện":"",
+				 "Vẽ kỹ thuật":"",
+				 "Lý thuyết điều khiển tự động":""
+
+		}
+	},
+	{	
+		"namebox": "Tài liệu hình ảnh",
+		"id" : "3",
+		"sj": {
+
+		}
+	}
+
+]
